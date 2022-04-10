@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 60px;
+    padding: 10px 10px 0 10px;
+}
+
+.btnHeader {
+    font-size: 22px;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    color: blue;
+}
+
+.btnHeader:hover {
+    background-color: lightblue;
+}
+
+.quiz {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-questions {
+    font-size: 25 px;
+    font-weight: 20ox;
+}
+
+.btn {
+    font-size: 22px;
+    background-color: blue;
+    color: white;
+}
