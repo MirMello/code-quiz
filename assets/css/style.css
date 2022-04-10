@@ -43,3 +43,7 @@ header {
     background-color: blue;
     color: white;
 }
+
+.bt:hover {
+    background-color: lightblue;
+}
